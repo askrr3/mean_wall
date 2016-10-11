@@ -23,7 +23,7 @@ app.controller('wallController', ['$scope', '$location', 'userFactory', '$cookie
   }
   $scope.getmessage()
 
-console.log('inside the wallController');
+  console.log('inside the wallController');
   $scope.message = function(){
     console.log($scope.newmessage.username = $scope.username);
     $scope.newmessage.username = $scope.username
@@ -44,5 +44,4 @@ console.log('inside the wallController');
       $scope.getmessage()
     })
   }
-
 }])
