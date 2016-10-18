@@ -11,6 +11,4 @@ console.log('inside userController');
       $location.url('/wall')
     })
   }
-
-
 }])

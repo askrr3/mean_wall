@@ -14,7 +14,7 @@ var MessageSchema = new mongoose.Schema({
     maxlength: [200, 'can not be longer than 200 characters']
   },
 
-  _comment: [{
+  _comment: [8{
         type: Schema.Types.ObjectId, ref: 'comment'
       }]
 
